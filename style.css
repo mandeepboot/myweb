@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    
+}
+h1{
+   color: rgb(255, 255, 255);
+   font-family: cursive;
+   font-weight: 900;
+   text-align: center;
+   border-radius: 4px;
+   border-color: yellow;
+   background-color: rgb(9, 135, 246);
+   animation-play-state: running;
+}
+   
+#mandeepmessage{
+    color: rgb(0, 255, 0);
+    font-family: monospace;
+    font-weight: 500;
+    position: relative;
+    top: 400px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border-color: yellow;
+    border-top-width: 5px;
+   
+
+
+}
+
+
+button{
+    border-radius: 5px;
+    background-color: rgb(71, 71, 247);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#details,#or{
+    color: aliceblue;
+    margin-top: 500px;
+    font-family: cursive;
+    font-weight: 900;
+}
+#or{
+    text-align: center;
+    
+}
+@media screen and (min-width:900) {
+    #myimage{
+        float: right;
+        width: 100px ;
+        margin-right: 100px;
+        margin-top: 50px;
+        
+    }
+
+    
+}

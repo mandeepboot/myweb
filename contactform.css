@@ -1,0 +1,101 @@
+  * {
+    box-sizing: border-box;
+  }
+  div{
+    margin: 20px 30px;
+    font-family: cursive;
+  }
+   
+
+
+
+    
+button{
+    background-color: red;
+    padding: 20px 40px;
+    font-family: cursive;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    background-color: rgb(0, 255, 0);
+
+}
+h2{
+    font-size: larger;
+    font-style: oblique;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+}
+.main{
+    border-color: blue;
+    background-color:yellowgreen;
+    padding: 10px 350px;
+}
+p{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(38, 7, 218);
+}
+input{
+    border-radius: 4px;
+   border: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  
+    width: 93%;
+    padding: 20px;
+    box-sizing: content-box;
+    margin: 20px;
+    
+}
+textarea{
+    border-style: double;
+    border-color: rgb(255, 0, 98);
+    border: 5cm 10cm;
+    background-color: darkgray;
+    width: 97%;
+    margin: 20px;
+    
+}
+body{
+    background-color: aqua;
+}
+div,p{
+    border-radius: 5px;
+    border: 3px solid black;
+}
+@media screen and (min-width:360px)  {
+    textarea{
+        width:50%
+        
+    }
+    input{
+        width:60%
+    }
+    #main{
+        padding: 10px 50px;
+    }
+    
+}
+@media screen and 
+ (max-width:359px){
+    textarea{
+        width:10%
+        
+    }
+    input{
+        width:40%
+    }
+    #main{
+        padding: 10px 10px;
+    }
+
+
+    
+}
